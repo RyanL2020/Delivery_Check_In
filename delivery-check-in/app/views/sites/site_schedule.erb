@@ -1,5 +1,10 @@
 <h1>This is your site schedule</h1>
-
+   <ul>
+   <li>
    <% @site.each do |t|%>
-      <%= t.location %>
+      <a href='/sites/ <%= t.id %>'>
+         <%= t.location %>
+      </a>
+   </li>
       <% end %>
+   </ul>
