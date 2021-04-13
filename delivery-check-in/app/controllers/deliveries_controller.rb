@@ -1,7 +1,7 @@
 class DeliveriesController < ApplicationController
 
   # GET: /deliveries
-  get "/deliveries" do
+  get "/deliveries/:id" do
     erb :"/deliveries/index.html"
   end
 

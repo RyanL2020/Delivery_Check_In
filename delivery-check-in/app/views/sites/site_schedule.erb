@@ -2,7 +2,7 @@
    <ul>
    <li>
    <% @site.each do |t|%>
-      <a href='/sites/ <%= t.id %>'>
+      <a href="/deliveries/:id <%= t.id %>">
          <%= t.location %>
       </a>
    </li>

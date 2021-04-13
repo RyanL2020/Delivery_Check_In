@@ -11,4 +11,9 @@ class ApplicationController < Sinatra::Base
     erb :welcome
   end
 
+  post "/login" do 
+    redirect "/sites"
+  end 
+   
+
 end
