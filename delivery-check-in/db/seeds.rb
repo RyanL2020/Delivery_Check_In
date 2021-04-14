@@ -17,12 +17,12 @@ end
  end 
 
  2.times do 
-    Delivery.create(company_number: [1..10].sample,
+    Delivery.create(company_number: 10,
     vendor: "LMI",
-    catalog_number: [100..200].sample, 
+    catalog_number: 100, 
     description: "new",
-    qty_order_shipped: [1..10].sample,
-    number_of_boxes: [1..10].sample,
+    qty_order_shipped: 10,
+    number_of_boxes: 10,
     notes: "blank")
  end 
 
